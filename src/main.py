@@ -1,5 +1,5 @@
 import argparse
-from src import todo
+from src.todo import Todo
 
 
 def main():
@@ -7,7 +7,7 @@ def main():
 
     subparsers = parser.add_subparsers()
 
-    todo_list = todo.Todo()
+    todo_list = Todo()
 
     parser_add = subparsers.add_parser("add", help="Add a todo to the todo list")
     parser_add.add_argument('description', type=str)
