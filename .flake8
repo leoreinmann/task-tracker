@@ -14,7 +14,6 @@
 #
 
 [flake8]
-exclude = .venv
 
 ################### PROGRAM ################################
 
@@ -65,6 +64,7 @@ exclude =
     .pytest_cache,
     # mypy cache
     .mypy_cache
+    .venv
 # Provide a comma-separate list of glob patterns to include for checks.
 filename =
     *.py
