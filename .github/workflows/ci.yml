@@ -47,8 +47,8 @@ jobs:
       #----------------------------------------------
       - name: Run tests
         run: |
-          coverage run -m pytest tests -v
-          coverage report
-          flake8
-          mypy src
-          mypy tests
+          poetry run coverage run -m pytest tests -v
+          poetry run coverage report
+          poetry run flake8
+          poetry run mypy src
+          poetry run mypy tests
