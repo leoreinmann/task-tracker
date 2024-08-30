@@ -10,9 +10,9 @@
 - [Data Structure](#data-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Project Link](#project-link)
 
 Task tracker is a simple CLI tool to add, update, delete, and list tasks. 
-It is derived from [roadmap.sh](https://roadmap.sh/projects/task-tracker)
 
 ## Installation
 
@@ -73,6 +73,6 @@ The data is saved in a json file with following structure:
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-
-
+## Project Link
+For more details about this project, visit the [Task Tracker Project Roadmap](https://roadmap.sh/projects/task-tracker).
 
