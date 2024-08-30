@@ -5,7 +5,12 @@ description = "Track and manage to-do list"
 authors = ["Leo Reinmann <leo@reinmann.me>"]
 license = "MIT"
 readme = "README.md"
-include = ["src"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.scripts]
+todo = "src.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.12"
