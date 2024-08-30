@@ -47,7 +47,6 @@ jobs:
       #----------------------------------------------
       - name: Run tests
         run: |
-          source .venv/bin/activate
           coverage run -m pytest tests -v
           coverage report
           flake8
