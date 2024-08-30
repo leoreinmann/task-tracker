@@ -11,7 +11,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-Task tracker is a simple CLI tool to add, update, delete, and list tasks.
+Task tracker is a simple CLI tool to add, update, delete, and list tasks. 
+It is derived from [roadmap.sh](https://roadmap.sh/projects/task-tracker)
 
 ## Installation
 
